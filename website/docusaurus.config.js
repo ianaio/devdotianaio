@@ -9,9 +9,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BASED ANALYTICS - IANA SYSTEMS',
-  tagline: ' A mix of Human and AI Hybrid Analysis - Predictive and recorded future, deep and based analysis that matter most ',
-  url: 'https://analytics.iana.io',
+  title: 'FOR DEVELOPERS - IANA SYSTEMS',
+  tagline: ' IANA SYSETMS - we help developers succeed in shortest time for less money ',
+  url: 'https://dev.iana.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,7 +25,7 @@ const config = {
   },
   favicon: 'img/Gloo-Logo.ico',
   organizationName: 'ianaio - IANA SYSTEMS',
-  projectName: 'analyticsdotianaio',
+  projectName: 'devdotianaio',
   themeConfig: {
     navbar: {
       title: 'iana.io',
@@ -36,7 +36,7 @@ const config = {
       items: [
         //{to: '/analysis', label: 'Analysis', position: 'left'},
         {
-          href: 'https://analytics.iana.io/docs/getting-started',
+          href: 'https://dev.iana.io/docs/getting-started',
           label: 'Analysis',
           position: 'left',
         },
@@ -71,8 +71,8 @@ const config = {
           title: 'Contact',
           items: [
             {
-	      label: 'EMAIL: analytics(at)iana.io',
-              href: 'https://analytics.iana.io',
+	      label: 'EMAIL: dev(at)iana.io',
+              href: 'https://dev.iana.io',
             },
             {
               label: 'Blog',
@@ -98,13 +98,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ianaio/analytics/blob/master/website/',
+            'https://github.com/ianaio/dev/blob/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ianaio/analytics/blob/master/website/',
+            'https://github.com/ianaio/dev/blob/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
